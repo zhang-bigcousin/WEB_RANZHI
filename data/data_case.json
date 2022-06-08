@@ -1,0 +1,49 @@
+{
+	"系统登录":
+	{
+		"LoginSuccess":{"json":{"username":"admin","password":"MTIzNDU2"}},
+		"LoginFailErrorUser":{"json":{"username":"admin111","password":"MTIzNDU2"}},
+		"LoginFailErrorPassword":{"json":{"username":"admin","password":"MTIzNDU2Nw=="}}
+	},
+	"添加维度":
+	{
+		"AddDemSuccess1":{"json":{"name":"test43name01","code":"test43code01","description":"test43呵呵哈哈哈","isDefault":0}},
+	    "AddDemSuccess2":{"json":{"name":"test43name02","code":"test43code02","description":"test43呵呵哈哈哈","isDefault":0}},
+        "AddDemFail":{"json":{"name":"test43name03","code":"test43code01","description":"1额额额21","isDefault": 0}}
+	},
+	"更新维度":
+	{
+		"UpdateDemSuccess":{"json":{"code":"test43code01","name":"test43name01-xg"}},
+		"UpdateDemFail":{"json":{"code":"test43code01","name":"1111111111111111111111111111111"}}
+	},
+	"设置默认维度":
+	{
+		"SetDefaultDemSuccess":{"params":{"code":"test43code01"}},
+		"SetDefaultDemFail":{"params":{"code":""}}
+	},
+	"取消默认维度":
+	{
+		"CancelDefaultDemSuccess":{"params":{"code":"test43code01"}},
+		"CancelDefaultDemFail":	{"params":{"code":"test43code01"}}
+	},
+	"获取维度信息":
+	{
+		"GetDemSuccess":{"params":{"code":"test43code01"}}
+	},
+	"根据维度id删除维度":
+	{
+		"DeleteDemByIdsSuccess":{"params":{"ids":""}}
+	},
+	"添加组织":
+	{
+	    "AddOrgSuccess":{"json":{"code":"test43组织01code","demId":"","name":"test43组织01name"}}
+	},
+	"添加组织参数":
+	{
+		"SaveOrgParamsSuccess":
+		{
+			"params":{"orgCode":"test43组织01code"},
+			"json":[{"alias":"cc1","value":0},{"alias":"cssdsr","value":"test43测试01"}]
+		}
+	}
+}

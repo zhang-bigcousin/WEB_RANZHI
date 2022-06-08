@@ -1,0 +1,6 @@
+HTMLTestRunner-Python3==0.8.0
+jsonpath==0.82
+openpyxl==3.0.9
+parameterized==0.8.1
+PyYAML==6.0
+selenium==4.2.0
